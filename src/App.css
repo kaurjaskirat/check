@@ -1,38 +1,181 @@
-.App {
+/* .container1{
+  background-color:rgb(51, 36, 132);
+   margin-top:-10px; */
+   /* text-align:center; */
+/* }
+h1{
+  color:white;
+ 
+
+  text-shadow:3px 4px grey;
+}
+.searchbar input{
+  width:30%;
+  margin-left:40%;
+  margin-top:30%;
+}
+main{
+    background-color:rgb(23, 22, 23);
+    height:650px;
+    padding:15px;
+
+}
+.app{
+  background-image: url('./assests/cloudy.jpg');
+  background-size:cover;
+  height: 450px;
+  width: 400px;
+  margin-left:500px;
+  opacity:85%;
+  transition:0.4 ease-out;
+
+}
+.appwarm{
+  background-image: url('./assests/sunny.jpg');
+  background-size:cover;
+  height: 600px;
+  width: 400px;
+  margin-left:500px;
+  opacity:65%;
+  transition:0.4 ease-out;
+}
+.searchbar{
+  /* margin-top:305px; */
+  /* width: 100px; */
+  /* margin:0 0 75px; */
+/* }
+.appwarm .searchbar .search-bar{
+  width: 300px;
+  padding:5px ;
+  appearance:none;
+  display:block;
+  outline:none;
+  border-radius:0px 0px 2px 2px;
+  box-shadow:0px 5px rgba(7, 7, 7, 0.2);
+  background-color:rgba(37, 37, 40, 0.5)
+}
+.search-bar{
+  font-size:25px;
+  font-weight: 500;
+  margin-top: 300px;
+  color:white;
+}.location-box .location{
+ color:rgb(6, 4, 74);
+ font-size:40px;
+ font-weight: 700;
+ margin-top:20%;
+ margin-left:15%;
+}
+.location-box .date{
+  color:rgb(6, 4, 74);
+  font-size:25px;
+ font-weight: 600;
+ margin-left:5%;
+}
+.weather-box .temp{
+   background-color:rgba(54, 54, 64, 0.5);
+   padding:55px 40px;
+   font-size:70px;
+ text-shadow:3px 4px rgb(174, 155, 155);
+   text-align:center;
+   position:relative;
+   display:inline-block;
+   margin:30px auto;
+   justify-content:center;
+   color:white;
+   font-weight: 700;
+   margin-left:20%;
+}
+.temp{
+   margin-top:5%;
+}
+.weather-box .weather{
+  color:#05034d;
+  font-size:45px;
+ font-weight: 700;
+ margin-left:35%;
+} */ 
+.app{
+ 
+  background-image: url('./assests/cloudy.jpg');
+  background-size: cover;
+  background-position: bottom;
+  width: 400px;
+  opacity:95%;
+  height: 700px;
+  margin-left:500px;
+  transition: 0.4 ease-out;
+}
+
+main{
+  min-height: 100vh;
+  padding:15px;
+}
+.appwarm{
+  /* background-image: url('./assests/cloudy.jpg'); */
+  background-image: url('./assests/sunny.jpg');
+  background-size:cover;
+  height: 700px;
+  width: 400px;
+  margin-left:500px;
+  opacity:85%;
+  transition:0.4 ease-out;
+}
+.search-box .search-bar{
+  display: block;
+  width:100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  background-color: rgb(205, 217, 235);
+  border: none;
+outline: none;
+font-size: 20px;
+color: black;
+}
+
+.search-box{
+  width: 90%;
+  margin: 0 0 75px;
+}
+.location-box .location{
+  color:rgb(6, 4, 74);
+  font-size:45px;
+ font-weight: 600;
+ text-align: center;
+ text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.location-box .date{
+  color:rgb(6, 4, 74);
+  font-size:30px;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+.weather-box{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-box .temp{
+  position: relative;
+  display: inline-block;
+  margin:30px auto;
+  padding: 15px 25px;
+  font-size: 102px;
+  font-weight: 700;
+  text-align: center;
+  justify-content:center;
+  background-color: rgba(35, 166, 166, 0.5);
+  color:rgb(6, 4, 74);
+  text-shadow:3px 4px rgb(174, 155, 155);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-box .weather{
+  color: rgb(11, 9, 60);;
+  background-color: rgba(137, 205, 205, 0.5);
+  font-size: 48px;
+  font-weight: 700;
+  /* width:auto; */
+  /* text-shadow: 2px 2px rgba(50, 50, 70, 0.5); */
+  text-align: center;
+  justify-content:center;
 }
